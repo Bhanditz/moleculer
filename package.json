@@ -18,7 +18,9 @@
     "test": "jest --coverage --no-cache",
     "test:unit": "jest --testMatch \"**/unit/**spec.js\" --coverage --no-cache",
     "test:int": "jest --testMatch \"**/integration/**spec.js\" --coverage --no-cache",
-    "test:amqp": "jest --testMatch \"**/integration/amqp/**spc.js\" --runInBand"
+    "test:amqp": "jest --testMatch \"**/integration/amqp/**spc.js\" --runInBand",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [
     "microservices",
@@ -79,7 +81,8 @@
     "glob": "7.1.2",
     "ipaddr.js": "1.7.0",
     "lodash": "4.17.10",
-    "node-object-hash": "1.4.1"
+    "node-object-hash": "1.4.1",
+    "snyk": "^1.316.1"
   },
   "engines": {
     "node": ">= 6.x.x"
@@ -98,5 +101,6 @@
     "roots": [
       "../test"
     ]
-  }
+  },
+  "snyk": true
 }
