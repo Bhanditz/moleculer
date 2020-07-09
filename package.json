@@ -78,7 +78,7 @@
     "fastest-validator": "0.6.9",
     "glob": "7.1.2",
     "ipaddr.js": "1.7.0",
-    "lodash": "4.17.10",
+    "lodash": "4.17.16",
     "node-object-hash": "1.4.1"
   },
   "engines": {
