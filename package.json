@@ -76,7 +76,7 @@
     "es6-error": "4.1.1",
     "eventemitter2": "5.0.1",
     "fastest-validator": "0.6.9",
-    "glob": "7.1.2",
+    "glob": "9.0.0",
     "ipaddr.js": "1.7.0",
     "lodash": "4.17.10",
     "node-object-hash": "1.4.1"
